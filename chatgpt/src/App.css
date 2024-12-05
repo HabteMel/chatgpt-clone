@@ -3,6 +3,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: "Poppins";
 }
 
 .App{
@@ -10,17 +11,17 @@
 }
 .sideBar{
   height: 100vh;
-  border: 2px solid red;
-  background-color: cadetblue;
+  width: 10em;
+  background-color: #4D685A;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-right: 35px;
-  padding-left: 35px;
+  padding: 5px;
+
 }
 .sideBarNavigation{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .main{
@@ -28,6 +29,33 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: darkcyan;
-  flex: 3;
+  background-color: #2F2F2F;
+  flex: 1;
+}
+.main > h1{
+  color: aliceblue;
+}
+
+.chatHistory{
+  color: aliceblue;
+  list-style-type: none;
+  padding-left: 5px;
+  height: 450px;
+}
+.mainInput{
+  width: 80%;
+  height: 25px;
+  border: none;
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 25px;
+}
+.mainInput:active{
+  border: none;
+}
+
+.newChatButton{
+  padding: 10px;
+  font-weight: bold;
+
 }

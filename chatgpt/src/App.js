@@ -8,8 +8,6 @@ function App() {
           <h4>My Chats</h4>
           <p>Hide</p>
         </nav>
-        <button className='newChatButton'>New Chat +</button>
-
         <ul className='chatHistory'>
           <li>Chat History</li>
           <li>Chat History</li>
@@ -17,6 +15,8 @@ function App() {
           <li>Chat History</li>
           <li>Chat History</li>
         </ul>
+        <button className='newChatButton'>New Chat +</button>
+
       </section>
 
       <section className='main'>
