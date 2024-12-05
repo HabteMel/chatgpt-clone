@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: "Poppins";
 }
 
-.App{
+.App {
   display: flex;
 }
-.sideBar{
+
+.sideBar {
   height: 100vh;
   width: 10em;
   background-color: #4D685A;
@@ -17,14 +18,15 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 5px;
-
 }
-.sideBarNavigation{
+
+.sideBarNavigation {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,17 +34,20 @@
   background-color: #2F2F2F;
   flex: 1;
 }
-.main > h1{
+
+.main > h1 {
   color: aliceblue;
 }
 
-.chatHistory{
+.chatHistory {
   color: aliceblue;
   list-style-type: none;
   padding-left: 5px;
   height: 450px;
+  overflow-y: auto;
 }
-.mainInput{
+
+.mainInput {
   width: 80%;
   height: 25px;
   border: none;
@@ -50,12 +55,40 @@
   padding: 25px;
   margin-top: 25px;
 }
-.mainInput:active{
+
+.mainInput:active {
   border: none;
 }
 
-.newChatButton{
+.newChatButton {
   padding: 10px;
   font-weight: bold;
-
 }
+
+/* New styles for authentication form */
+.App > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+.App > form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.App > form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4D685A;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.App > form button:hover {
+  background-color: #3a4f44;
+}
+
