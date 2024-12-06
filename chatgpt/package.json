@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
     "cra-template": "1.2.0",
+    "dotenv": "^16.4.7",
     "express": "^4.21.1",
     "firebase": "^11.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
     "nodemon": "^3.1.7",
     "openai": "^4.75.0",
     "react": "^18.3.1",
@@ -48,6 +53,5 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {}
+  "license": "ISC"
 }
