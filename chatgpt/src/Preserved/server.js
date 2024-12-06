@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 const openai = new OpenAI({
-  apiKey: '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'
+  apiKey: ''
 });
 
 app.post('/generate', async (req, res) => {
